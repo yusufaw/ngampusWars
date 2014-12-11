@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 60338602900922045919148cc824ce7b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Asset Enemy
+    21300002: Asset Enemy_0
+    21300004: Asset Enemy_1
+    21300006: Asset Enemy_2
+    21300008: Asset Enemy_3
+    21300010: Asset Enemy_4
+    21300012: Asset Enemy_5
+    21300014: Asset Enemy_6
+    21300016: Asset Enemy_7
+    21300018: Asset Enemy_8
+    21300020: Asset Enemy_9
+    21300022: Asset Enemy_10
+    21300024: Asset Enemy_11
+    21300026: Asset Enemy_12
+    21300028: Asset Enemy_13
+    21300030: Asset Enemy_14
+    21300032: Asset Enemy_15
+    21300034: Asset Enemy_16
+    21300036: Asset Enemy_17
+    21300038: Asset Enemy_18
+    21300040: Asset Enemy_19
+    21300042: Asset Enemy_20
+    21300044: Asset Enemy_21
+    21300046: Asset Enemy_22
+    21300048: Asset Enemy_23
+    21300050: Asset Enemy_24
+    21300052: Asset Enemy_25
+    21300054: Asset Enemy_26
+    21300056: Asset Enemy_27
+    21300058: Asset Enemy_28
+    21300060: Asset Enemy_29
+    21300062: Asset Enemy_30
+    21300064: Asset Enemy_31
+    21300066: Asset Enemy_32
+    21300068: Asset Enemy_33
+    21300070: Asset Enemy_34
+    21300072: Asset Enemy_35
+    21300074: Asset Enemy_38
+    21300076: Asset Enemy_39
+    21300078: Asset Enemy_40
+    21300080: Asset Enemy_41
+    21300082: Asset Enemy_42
+    21300084: Asset Enemy_36
+    21300086: Asset Enemy_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Asset Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 187
+        height: 418
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1692
+        width: 275
+        height: 422
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1695
+        width: 262
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1692
+        width: 217
+        height: 422
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1688
+        width: 214
+        height: 429
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1679
+        width: 137
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1688
+        width: 154
+        height: 423
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1701
+        width: 207
+        height: 419
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1695
+        width: 154
+        height: 422
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 1692
+        width: 150
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1695
+        width: 211
+        height: 427
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 1695
+        width: 221
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 1704
+        width: 266
+        height: 418
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1106
+        width: 195
+        height: 425
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1106
+        width: 201
+        height: 441
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1103
+        width: 192
+        height: 444
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1096
+        width: 198
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1106
+        width: 195
+        height: 438
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1119
+        width: 204
+        height: 428
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1112
+        width: 199
+        height: 435
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1112
+        width: 198
+        height: 435
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1112
+        width: 195
+        height: 439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1109
+        width: 195
+        height: 438
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1119
+        width: 197
+        height: 428
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 530
+        width: 249
+        height: 454
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 536
+        width: 243
+        height: 451
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 533
+        width: 211
+        height: 454
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 523
+        width: 154
+        height: 452
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 536
+        width: 208
+        height: 445
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_29
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 546
+        width: 272
+        height: 445
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_30
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 543
+        width: 204
+        height: 444
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_31
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 539
+        width: 157
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_32
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 539
+        width: 205
+        height: 458
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_33
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 549
+        width: 282
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_34
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 328
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_35
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 338
+        width: 118
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_36
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 8
+        width: 510
+        height: 470
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_37
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 8
+        width: 525
+        height: 461
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_38
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 8
+        width: 499
+        height: 457
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Enemy_39
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 0
+        width: 435
+        height: 459
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

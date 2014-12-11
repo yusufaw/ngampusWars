@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 22bd6d55e5bf5cf4b90fe30e228a1751
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Asset Hero
+    21300002: Asset Hero_2
+    21300004: Asset Hero_3
+    21300006: Asset Hero_0
+    21300008: Asset Hero_1
+    21300010: Asset Hero_4
+    21300012: Asset Hero_5
+    21300014: Asset Hero_6
+    21300016: Asset Hero_7
+    21300018: Asset Hero_8
+    21300020: Asset Hero_9
+    21300022: Asset Hero_10
+    21300024: Asset Hero_11
+    21300026: Asset Hero_12
+    21300028: Asset Hero_13
+    21300030: Asset Hero_14
+    21300032: Asset Hero_15
+    21300034: Asset Hero_16
+    21300036: Asset Hero_17
+    21300038: Asset Hero_18
+    21300040: Asset Hero_19
+    21300042: Asset Hero_20
+    21300044: Asset Hero_21
+    21300046: Asset Hero_22
+    21300048: Asset Hero_23
+    21300050: Asset Hero_24
+    21300052: Asset Hero_25
+    21300054: Asset Hero_26
+    21300056: Asset Hero_27
+    21300058: Asset Hero_28
+    21300060: Asset Hero_29
+    21300062: Asset Hero_30
+    21300064: Asset Hero_31
+    21300066: Asset Hero_33
+    21300068: Asset Hero_36
+    21300070: Asset Hero_32
+    21300072: Asset Hero_34
+    21300074: Asset Hero_35
+    21300076: Asset Hero_37
+    21300078: Asset Hero_38
+    21300080: Asset Hero_39
+    21300082: Asset Hero_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Asset Hero_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1329
+        width: 151
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1327
+        width: 118
+        height: 295
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1327
+        width: 113
+        height: 295
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1327
+        width: 83
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1327
+        width: 114
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_5
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1331
+        width: 146
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_6
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1324
+        width: 113
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_7
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1317
+        width: 83
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1322
+        width: 111
+        height: 297
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_9
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1324
+        width: 119
+        height: 295
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_10
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1315
+        width: 125
+        height: 297
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_11
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1315
+        width: 160
+        height: 294
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1315
+        width: 132
+        height: 294
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 184
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 937
+        width: 137
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 935
+        width: 118
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 935
+        width: 93
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 935
+        width: 126
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 940
+        width: 177
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_19
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 930
+        width: 128
+        height: 311
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_20
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 923
+        width: 88
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_21
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 930
+        width: 139
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_22
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 933
+        width: 144
+        height: 312
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_23
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 919
+        width: 184
+        height: 333
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_24
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 919
+        width: 204
+        height: 333
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_25
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 919
+        width: 142
+        height: 333
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 548
+        width: 172
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_27
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 543
+        width: 157
+        height: 311
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_28
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 541
+        width: 150
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_29
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 539
+        width: 128
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_30
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 546
+        width: 167
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_31
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 546
+        width: 144
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_32
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 543
+        width: 132
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_33
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 543
+        width: 150
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_34
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 541
+        width: 157
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_35
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 532
+        width: 157
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_36
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 532
+        width: 151
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_37
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 532
+        width: 143
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 268
+        height: 407
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_39
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 269
+        height: 413
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asset Hero_40
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 105
+        width: 296
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
