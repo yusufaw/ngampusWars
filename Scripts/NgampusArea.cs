@@ -4,64 +4,32 @@ using System.Collections;
 
 public class NgampusArea : MonoBehaviour
 {
-    public GameObject hero1, hero2, hero3, hero4, pauseImage;
-    public GameObject enemy1, enemy2, enemy3, enemy4;
-    private bool pauseGame = false, enemyShowed = true, hero1Showed = true, hero2Showed = true, hero3Showed = true, hero4Showed = true;
+    public GameObject hero1, hero2, hero3, hero4, enemy1, pauseImage;
+    private bool pauseGame = false, enemyShowed = false, hero1Showed = true, hero2Showed = true, hero3Showed = true, hero4Showed = true;
     private Vector2 startPos;
     public float minSwipeDistY, minSwipeDistX, loadTimeHero1 = 2, loadTimeHero2 = 2, loadTimeHero3 = 2, loadTimeHero4 = 2;
     public Text textTime, textMana;
     public Button button1, button2, button3, button4;
-    public float timer = 0, manaHero = 0, manaEnemy = 0, manaLevelHero = 1, manaLevelEnemy = 1;
+    public float timer = 0, mana = 0, manaLevel = 1;
     public float showSpeed = 4;
-    public float minManaHero1 = 10, minManaHero2 = 30, minManaHero3 = 80, minManaHero4 = 100;
-    public float minManaEnemy1 = 10, minManaEnemy2 = 30, minManaEnemy3 = 80, minManaEnemy4 = 100;
+    public float minManaHero1 = 10, minManaHero2 = 20, minManaHero3 = 30, minManaHero4 = 40;
+    private bool hero1Enable = false, hero2Enable = false, hero3Enable = false, hero4Enable = false;
 
     void Start()
     {
-        //StartCoroutine(showEnemy());
+        StartCoroutine(showEnemy());
         button1.enabled = button2.enabled = button3.enabled = button4.enabled = false;
         //button1 = (Button)GameObject.Find("button hero 1");
     }
 
     void Update()
     {
-        if (Scene.level == 1)
-        {
-            if (hero1Showed && manaHero >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; }
-            if (enemyShowed) StartCoroutine(showEnemy());
-        }
-        else if (Scene.level == 2)
-        {
-            if (hero1Showed && manaHero >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; }
-            if (hero2Showed && manaHero >= minManaHero2) { button2.enabled = true; } else { button2.enabled = false; }
-        }
-        else if (Scene.level == 3)
-        {
-            if (hero1Showed && manaHero >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; }
-            if (hero2Showed && manaHero >= minManaHero2) { button2.enabled = true; } else { button2.enabled = false; }
-            if (hero3Showed && manaHero >= minManaHero3) { button3.enabled = true; } else { button3.enabled = false; }
-        }
-        else if (Scene.level == 4)
-        {
-            if (hero1Showed && manaHero >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; }
-            if (hero2Showed && manaHero >= minManaHero2) { button2.enabled = true; } else { button2.enabled = false; }
-            if (hero3Showed && manaHero >= minManaHero3) { button3.enabled = true; } else { button3.enabled = false; }
-            if (hero4Showed && manaHero >= minManaHero4) { button4.enabled = true; } else { button4.enabled = false; }
-        }
-        else
-        {
-            if (hero1Showed && manaHero >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; }
-            if (hero2Showed && manaHero >= minManaHero2) { button2.enabled = true; } else { button2.enabled = false; }
-            if (hero3Showed && manaHero >= minManaHero3) { button3.enabled = true; } else { button3.enabled = false; }
-            if (hero4Showed && manaHero >= minManaHero4) { button4.enabled = true; } else { button4.enabled = false; }
-            if (enemyShowed) StartCoroutine(showEnemy());
-        }
-
-        
+        if (hero1Showed && mana >= minManaHero1) { button1.enabled = true; } else { button1.enabled = false; } if (hero2Showed && mana >= minManaHero2) { button2.enabled = true; } else { button2.enabled = false; } if (hero3Showed && mana >= minManaHero3) { button3.enabled = true; } else { button3.enabled = false; } if (hero4Showed && mana >= minManaHero4) { button4.enabled = true; } else { button4.enabled = false; }
+        if (enemyShowed) StartCoroutine(showEnemy());
         timer += Time.deltaTime;
-        manaHero += Time.deltaTime * manaLevelHero;
-        textTime.text = "Waktu: "+timer.ToString("0");
-        textMana.text = "Mana : " + manaHero.ToString("0");
+        mana += Time.deltaTime * manaLevel;
+        textTime.text = timer.ToString("0");
+        textMana.text = "Mana : " + mana.ToString("0");
         if (pauseGame == true)
         {
             pauseImage.SetActive(true);
@@ -133,6 +101,15 @@ public class NgampusArea : MonoBehaviour
     {
         pauseGame = false;
     }
+    public void mainmenu()
+    {
+        Application.LoadLevel("main");
+    }
+    public void mainulang()
+    {
+        Application.LoadLevel("play");
+    }
+
     public void metu(int id)
     {
         StartCoroutine(showHero(id));
@@ -142,7 +119,7 @@ public class NgampusArea : MonoBehaviour
     {
         if (id == 1)
         {
-            manaHero -= minManaHero1;
+            mana -= minManaHero1;
             Instantiate(hero1);
             hero1Showed = false;
             yield return new WaitForSeconds(loadTimeHero1);
@@ -150,7 +127,7 @@ public class NgampusArea : MonoBehaviour
         }
         else if (id == 2)
         {
-            manaHero -= minManaHero2;
+            mana -= minManaHero2;
             Instantiate(hero2);
             hero2Showed = false;
             yield return new WaitForSeconds(loadTimeHero2);
@@ -158,7 +135,7 @@ public class NgampusArea : MonoBehaviour
         }
         else if (id == 3)
         {
-            manaHero -= minManaHero3;
+            mana -= minManaHero3;
             Instantiate(hero3);
             hero3Showed = false;
             yield return new WaitForSeconds(loadTimeHero3);
@@ -166,7 +143,7 @@ public class NgampusArea : MonoBehaviour
         }
         else if (id == 4)
         {
-            manaHero -= minManaHero4;
+            mana -= minManaHero4;
             Instantiate(hero4);
             hero4Showed = false;
             yield return new WaitForSeconds(loadTimeHero4);
@@ -176,7 +153,7 @@ public class NgampusArea : MonoBehaviour
 
     IEnumerator showEnemy()
     {
-        Instantiate(enemy4);
+        Instantiate(enemy1);
         enemyShowed = false;
         yield return new WaitForSeconds(showSpeed);
         enemyShowed = true;

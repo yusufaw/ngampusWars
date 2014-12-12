@@ -10,17 +10,20 @@ public class Level : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Application.platform == RuntimePlatform.Android)
-        {
-
+      
             if (Input.GetKeyUp(KeyCode.Escape))
             {
 
                 //quit application on return button
 
-                Application.LoadLevel("home");
+                Application.LoadLevel("main");
             }
 
-        }
+        
 	}
+
+    public void klikMenu()
+    {
+        Application.LoadLevel("main");
+    }
 }

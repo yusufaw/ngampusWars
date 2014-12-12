@@ -3,17 +3,21 @@ using System.Collections;
 
 public class Scene : MonoBehaviour {
 
+  
 	// Use this for initialization
-    public static int level;
+	void Start () {
+     
+	}
 	
-    public void klikLevel()
-    {
-        Application.LoadLevel("level");
-    }
+	// Update is called once per frame
+	void Update () {
+        if (Input.touchCount > 0 || Input.anyKeyDown)
+        {
 
-    public void klikPlay(int id)
-    {
-        level = id;
-        Application.LoadLevel("play");
-    }
+            Application.LoadLevel("main");
+           
+        }
+	    
+	}
+
 }
