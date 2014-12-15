@@ -5,7 +5,7 @@ public class Hero : MonoBehaviour
 {
     public GameObject senjata;
     public bool mbledos = true;
-    public float distance = 5, speed = 1, delayFire=1;
+    public float distance = 5, speed = 1, delayFire = 1;
     Animator animator;
     void Start()
     {
@@ -55,9 +55,10 @@ public class Hero : MonoBehaviour
         senjata.transform.position = gameObject.transform.position;
         Instantiate(senjata);
         //gameObject.audio.Play();
-        
         mbledos = false;
         yield return new WaitForSeconds(delayFire);
         mbledos = true;
     }
+
+
 }

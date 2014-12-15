@@ -1,29 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class menuscene : MonoBehaviour {
+public class MenuScene : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    
 
+    void Update()
+    {
+        if (Application.platform == RuntimePlatform.Android)
+        {
 
+            if (Input.GetKeyUp(KeyCode.Escape))
+            {
+
+                //quit application on return button
+
+                Application.Quit();
+            }
+        }
+    }
     public void klikLevel()
     {
         Application.LoadLevel("level");
     }
 
-    public void klikPlay()
-    {
-        Application.LoadLevel("play");
-    }
-
+   
     public void klikHelp()
     {
         Application.LoadLevel("help");

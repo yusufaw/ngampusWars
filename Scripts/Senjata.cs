@@ -3,15 +3,15 @@ using System.Collections;
 
 public class Senjata : MonoBehaviour
 {
-
+    public int damage = 100;
     public float speed = 1, timer = 0;
     public float destroyDistance = 20;
     public bool isHero;
-    private Vector3 startPos;
+    public Vector3 startPos;
     public float minJarak = 5;
     void Start()
     {
-        startPos = transform.position;
+        //startPos = transform.position;
         if (isHero)
         {
             rigidbody2D.AddForce(Vector2.right * 1f);
@@ -27,8 +27,7 @@ public class Senjata : MonoBehaviour
 
     void OnEnable()
     {
-        
-        Invoke("Destroy", 10f);
+        Invoke("Destroy", 1f);
     }
 
     void Destroy()
@@ -49,21 +48,19 @@ public class Senjata : MonoBehaviour
             float jarak = diff.magnitude;
             if (jarak < minJarak)
             {
-                rigidbody2D.AddForce(Vector2.up * 2.5f);
+                //rigidbody2D.AddForce(Vector2.up * 2.5f);
+                gameObject.transform.Translate(Vector3.up * 2 * Time.deltaTime);
             }
-            //rigidbody2D.AddForce(Vector2.up * 3f);
             if (isHero)
             {
-                rigidbody2D.AddForce(Vector2.right * 1f);
+                gameObject.transform.Translate(Vector3.right * speed * Time.deltaTime);
             }
             else
             {
-                //rigidbody2D.AddForce(Vector3.left * 3f);
-
-                gameObject.transform.Translate(Vector3.left * 2 * Time.deltaTime);
+                gameObject.transform.Translate(Vector3.left * speed * Time.deltaTime);
             }
         }
-    }
 
-    
+        if (gameObject.transform.position.y < -2.7) { Destroy(); }
+    }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Level : MonoBehaviour {
 
+    public static int level;
 	// Use this for initialization
 	void Start () {
 	
@@ -22,8 +23,10 @@ public class Level : MonoBehaviour {
         
 	}
 
-    public void klikMenu()
+    public void klikPlay(int id)
     {
-        Application.LoadLevel("main");
+        level = id;
+        Application.LoadLevel("play");
     }
+
 }
