@@ -4,6 +4,7 @@ using System.Collections;
 
 public class Gedung : MonoBehaviour {
 
+    public Scrollbar healthBar;
     public float health = 300;
     public GameObject asap;
     public bool isHero;
@@ -40,6 +41,7 @@ public class Gedung : MonoBehaviour {
             if (!senjataScript.isHero)
             {
                 health = health - senjataScript.damage;
+                healthBar.size = health / 100f;
                 collision.gameObject.SetActive(false);
             }
         }

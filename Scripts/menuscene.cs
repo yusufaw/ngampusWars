@@ -3,8 +3,6 @@ using System.Collections;
 
 public class MenuScene : MonoBehaviour {
 
-    
-
     void Update()
     {
         if (Application.platform == RuntimePlatform.Android)
@@ -12,9 +10,6 @@ public class MenuScene : MonoBehaviour {
 
             if (Input.GetKeyUp(KeyCode.Escape))
             {
-
-                //quit application on return button
-
                 Application.Quit();
             }
         }
@@ -24,7 +19,6 @@ public class MenuScene : MonoBehaviour {
         Application.LoadLevel("level");
     }
 
-   
     public void klikHelp()
     {
         Application.LoadLevel("help");
@@ -34,5 +28,4 @@ public class MenuScene : MonoBehaviour {
     {
         Application.LoadLevel("about");
     }
-
 }

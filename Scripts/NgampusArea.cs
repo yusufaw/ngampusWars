@@ -26,9 +26,7 @@ public class NgampusArea : MonoBehaviour
     void Start()
     {
         pauseGame = false;
-        //StartCoroutine(showEnemy());
         button1.enabled = button2.enabled = button3.enabled = button4.enabled = false;
-        //button1 = (Button)GameObject.Find("button hero 1");
     }
 
     void Update()
@@ -283,6 +281,4 @@ public class NgampusArea : MonoBehaviour
             enemy4Showed = true;
         }
     }
-
-    
 }

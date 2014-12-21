@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
-
+    
     public float distance = 5;
     public float speed = 1;
     public float health = 100;
@@ -19,17 +20,25 @@ public class Character : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < jumlahPeluru; i++)
-        {
-            GameObject objekPeluru = (GameObject)Instantiate(senjata);
-            objekPeluru.SetActive(false);
-            kumpulanPeluru.Add(objekPeluru);
-        }
-        animator = transform.GetComponent<Animator>();
-        if (animator == null)
-        {
-            Debug.LogError("Didn't find Animator!");
-        }
+        GameObject oow = GameObject.Find(senjata.name+" (Clone)");
+        Debug.Log(senjata.name+" (Clone)");
+        //if (oow == null)
+        //{
+            Debug.Log("Kosong");
+            //Debug.Log(oow.name);
+
+            for (int i = 0; i < jumlahPeluru; i++)
+            {
+                GameObject objekPeluru = (GameObject)Instantiate(senjata);
+                objekPeluru.SetActive(false);
+                kumpulanPeluru.Add(objekPeluru);
+            }
+            animator = transform.GetComponent<Animator>();
+            if (animator == null)
+            {
+                Debug.LogError("Didn't find Animator!");
+            }
+        //}
     }
 
     void Update()
